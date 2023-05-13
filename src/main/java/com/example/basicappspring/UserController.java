@@ -9,7 +9,7 @@ import java.util.ArrayList;
 @RequestMapping("/users")
 public class UserController {
 
-    private ArrayList<User> users = new ArrayList<>();
+    private ArrayList<User> userss = new ArrayList<>();
     @PostMapping("/")
     public User createUser(@RequestParam User user) {
         users.add(user);
